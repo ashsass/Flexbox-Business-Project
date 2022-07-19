@@ -16,25 +16,8 @@ h1{
     font-size: 4rem;
 }
 
-a{
-    color: black;
-    font-size: 1.1rem;
-    text-decoration: none;
-    font-family: 'Rajdhani', sans-serif;
-    font-weight: light;
-}
-
-a:visited{
-    border: 1px solid black;
-    padding: 3px;
-    border-radius: 3px;
-}
-
 a:hover{
     cursor: pointer;
-    box-shadow: 5px 3px;
-    border-top: 1px solid black;
-    border-left: 1px solid black;
 }
 
 /* Header Content  */
@@ -50,4 +33,25 @@ a:hover{
     width: 37rem;
     display: flex;
     justify-content: space-evenly;
+}
+
+.nav a{
+    color: black;
+    font-size: 1.1rem;
+    text-decoration: none;
+    font-family: 'Rajdhani', sans-serif;
+    font-weight: light;
+}
+
+.nav a:visited{
+    border: 1px solid black;
+    padding: 3px;
+    border-radius: 3px;
+}
+
+.nav a:hover{
+    cursor: pointer;
+    box-shadow: 5px 3px;
+    border-top: 1px solid black;
+    border-left: 1px solid black;
 }
